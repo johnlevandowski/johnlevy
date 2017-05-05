@@ -13,6 +13,9 @@
 // Start the engine.
 include_once( get_template_directory() . '/lib/init.php' );
 
+// Setup Theme.
+include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
+
 // Set Localization (do not remove).
 add_action( 'after_setup_theme', 'genesis_sample_localization_setup' );
 function genesis_sample_localization_setup(){
