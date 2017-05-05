@@ -13,28 +13,16 @@
 // Start the engine.
 include_once( get_template_directory() . '/lib/init.php' );
 
-// Setup Theme.
-include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
-
 // Set Localization (do not remove).
 add_action( 'after_setup_theme', 'genesis_sample_localization_setup' );
 function genesis_sample_localization_setup(){
 	load_child_theme_textdomain( 'genesis-sample', get_stylesheet_directory() . '/languages' );
 }
 
-// Add the helper functions.
-include_once( get_stylesheet_directory() . '/lib/helper-functions.php' );
-
-// Add Image upload and Color select to WordPress Theme Customizer.
-require_once( get_stylesheet_directory() . '/lib/customize.php' );
-
-// Include Customizer CSS.
-include_once( get_stylesheet_directory() . '/lib/output.php' );
-
 // Child theme (do not remove).
-define( 'CHILD_THEME_NAME', 'Genesis Sample' );
-define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
-define( 'CHILD_THEME_VERSION', '2.3.0' );
+define( 'CHILD_THEME_NAME', 'johnlevy' );
+define( 'CHILD_THEME_URL', 'http://johnlevandowski.com/' );
+define( 'CHILD_THEME_VERSION', '1.0.0' );
 
 // Enqueue Scripts and Styles.
 add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
@@ -82,21 +70,6 @@ add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu',
 
 // Add viewport meta tag for mobile browsers.
 add_theme_support( 'genesis-responsive-viewport' );
-
-// Add support for custom header.
-add_theme_support( 'custom-header', array(
-	'width'           => 600,
-	'height'          => 160,
-	'header-selector' => '.site-title a',
-	'header-text'     => false,
-	'flex-height'     => true,
-) );
-
-// Add support for custom background.
-add_theme_support( 'custom-background' );
-
-// Add support for after entry widget.
-add_theme_support( 'genesis-after-entry-widget-area' );
 
 // Add support for 3-column footer widgets.
 add_theme_support( 'genesis-footer-widgets', 3 );
