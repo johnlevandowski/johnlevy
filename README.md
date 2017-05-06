@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/johnlevy
 
 ## Changelog
 
+* Bunch of other custom functions
 * Customize Landing Page Template
 * Add Jetpack plugin customizations
 * Add Custom Archive and 404 Templates
