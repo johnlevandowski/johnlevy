@@ -80,6 +80,9 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 // Add Adsense Widget Areas.
 include_once( CHILD_DIR . '/lib/adsense-widgetize.php');
 
+// Add Google Custom Search.
+include_once( CHILD_DIR . '/lib/google-search.php');
+
 // Rename primary and secondary navigation menus.
 add_theme_support( 'genesis-menus', array( 'primary' => __( 'After Header Menu', 'genesis-sample' ), 'secondary' => __( 'Footer Menu', 'genesis-sample' ) ) );
 
