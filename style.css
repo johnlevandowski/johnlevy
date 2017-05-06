@@ -973,26 +973,34 @@ img.alignright,
 --------------------------------------------- */
 
 .sidebar .enews-widget,
-.sidebar .enews-widget .widget-title {
+.sidebar .enews-widget .widget-title,
+.johnlevy_after_post_content .enews-widget,
+.johnlevy_after_post_content .enews-widget .widget-title {
 	color: #fff;
 }
 
-.sidebar .widget.enews-widget {
+.sidebar .widget.enews-widget,
+.johnlevy_after_post_content .widget.enews-widget {
 	background-color: #333;
 }
 
 .sidebar .enews-widget input,
-.sidebar .enews-widget input:focus {
+.sidebar .enews-widget input:focus,
+.johnlevy_after_post_content .enews-widget input,
+.johnlevy_after_post_content .enews-widget input:focus {
 	border: 1px solid #333;
 }
 
-.sidebar .enews-widget input[type="submit"] {
-	background-color: #c3251d;
+.sidebar .enews-widget input[type="submit"],
+.johnlevy_after_post_content input[type="submit"] {
+	background-color: #12c;
 	color: #fff;
 }
 
 .sidebar .enews-widget input[type="submit"]:focus,
-.sidebar .enews-widget input[type="submit"]:hover  {
+.sidebar .enews-widget input[type="submit"]:hover,
+.johnlevy_after_post_content .enews-widget input[type="submit"]:focus,
+.johnlevy_after_post_content .enews-widget input[type="submit"]:hover {
 	background-color: #fff;
 	color: #333;
 }
@@ -1010,6 +1018,18 @@ img.alignright,
 
 .enews form + p {
 	margin-top: 24px;
+}
+
+.johnlevy_after_post_content .enews-widget {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 400px;
+	padding: 40px;
+	padding: 4rem;
+}
+
+.johnlevy_after_post_content .enews-widget .widget-wrap {
+	text-align: left;
 }
 
 /* ## Jetpack
@@ -1582,16 +1602,6 @@ body.johnlevy-landing {
 	margin-top: 26px;
 	margin-top: 2.6rem;
 	text-align: center;
-}
-
-.johnlevy_after_post_content .enews-widget {
-	background-color: #333;
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 400px;
-	padding: 40px;
-	padding: 4rem;
-	text-align: left;
 }
 
 .entry-content table {
