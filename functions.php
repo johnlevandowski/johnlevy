@@ -89,6 +89,9 @@ include_once( CHILD_DIR . '/lib/archive-page-content.php');
 // Add Jetpack plugin customizations.
 include_once( CHILD_DIR . '/lib/jetpack.php');
 
+// Add widget class.
+include_once( CHILD_DIR . '/lib/widget-class.php');
+
 // Rename primary and secondary navigation menus.
 add_theme_support( 'genesis-menus', array( 'primary' => __( 'After Header Menu', 'genesis-sample' ), 'secondary' => __( 'Footer Menu', 'genesis-sample' ) ) );
 

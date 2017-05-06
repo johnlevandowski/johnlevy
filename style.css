@@ -1612,6 +1612,11 @@ body.johnlevy-landing {
 	clear: both;
 }
 
+.sidebar .adsense {	
+	background: none;
+	padding: 0;
+}
+
 
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
