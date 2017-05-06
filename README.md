@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/johnlevy
 
 ## Changelog
 
+* Customize Landing Page Template
 * Add Jetpack plugin customizations
 * Add Custom Archive and 404 Templates
 * Add Google Custom Search http://johnlevandowski.com/add-google-custom-search-to-genesis-framework-theme/
