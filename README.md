@@ -5,6 +5,7 @@ Github project link: https://github.com/johnlevandowski/johnlevy
 
 ## Changelog
 
+* Add Customize Archive and 404 Templates
 * Add Google Custom Search http://johnlevandowski.com/add-google-custom-search-to-genesis-framework-theme/
 * Add Adsense Widget Areas http://johnlevandowski.com/add-google-adsense-to-genesis-framework-theme/
 * Forked from https://github.com/copyblogger/genesis-sample version 2.3.0
