@@ -1,16 +1,24 @@
-# Genesis Sample Theme
+# johnlevy html5 theme for the Genesis Framework
 
-Github project link: https://github.com/copyblogger/genesis-sample/
-
-
-## Installation Instructions
-
-1. Upload the Genesis Sample theme folder via FTP to your wp-content/themes/ directory. (The Genesis parent theme needs to be in the wp-content/themes/ directory as well.)
-2. Go to your WordPress dashboard and select Appearance.
-3. Activate the Genesis Sample theme.
-4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking.
+Github project link: https://github.com/johnlevandowski/johnlevy
 
 
-## Theme Support
+## Changelog
 
-Please visit http://my.studiopress.com/help/ for theme support.
+* Add Adsense Widget Areas http://johnlevandowski.com/add-google-adsense-to-genesis-framework-theme/
+* Forked from https://github.com/copyblogger/genesis-sample version 2.3.0
+
+
+## Adsense Test Images
+
+```html
+<a href="/"><img src="/wp-content/themes/johnlevy/images/600x300.png" style="max-width: none" height="600" width="300"></a>
+<a href="/"><img src="/wp-content/themes/johnlevy/images/336x280.png" style="max-width: none" height="280" width="336"></a>
+<a href="/"><img src="/wp-content/themes/johnlevy/images/728x90.png" style="max-width: none" height="90" width="728"></a>
+```
+
+## Developer Info
+
+Name: John Levandowski  
+Website: http://johnlevandowski.com  
+Twitter: https://twitter.com/johnlevandowski  

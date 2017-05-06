@@ -64,6 +64,7 @@
 - Sidebars
 - Footer Widgets
 - Site Footer
+- johnlevy Adsense Widget Areas
 - Media Queries
 	- Max-width: 1340px
 	- Max-width: 1200px
@@ -1471,6 +1472,64 @@ p.entry-meta {
 
 .site-footer p {
 	margin-bottom: 0;
+}
+
+
+/* # johnlevy Adsense Widget Areas
+---------------------------------------------------------------------------------------------------- */
+
+.johnlevy_before_loop .widget,
+.johnlevy_before_loop .widget:last-of-type,
+.johnlevy_after_post .widget,
+.johnlevy_after_post .widget:last-of-type {
+	margin-bottom: 40px;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+.johnlevy_before_post_content .widget {
+	float: left;
+	padding-bottom: 10px;
+	padding-bottom: 1rem;
+	padding-right: 24px;
+	padding-right: 2.4rem;
+}
+
+.content-sidebar .johnlevy_before_post_content .widget,
+.content-sidebar-sidebar .johnlevy_before_post_content .widget {
+	float: right;
+	padding-left: 24px;
+	padding-left: 2.4rem;
+	padding-right: 0px;
+	padding-right: 0rem;
+}
+
+.johnlevy_after_post_content .widget,
+.johnlevy_after_post_content .widget:last-of-type {
+	clear: both;
+	margin-bottom: 26px;
+	margin-bottom: 2.6rem;
+	margin-top: 26px;
+	margin-top: 2.6rem;
+	text-align: center;
+}
+
+.johnlevy_after_post_content .enews-widget {
+	background-color: #333;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 400px;
+	padding: 40px;
+	padding: 4rem;
+	text-align: left;
+}
+
+.entry-content table {
+	clear: both;
+}
+
+.entry-content h2 {
+	clear: both;
 }
 
 

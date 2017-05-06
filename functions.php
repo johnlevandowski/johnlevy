@@ -77,8 +77,8 @@ add_theme_support( 'genesis-responsive-viewport' );
 // Add support for 3-column footer widgets.
 add_theme_support( 'genesis-footer-widgets', 3 );
 
-// Add Image Sizes.
-add_image_size( 'featured-image', 720, 400, TRUE );
+// Add Adsense Widget Areas.
+include_once( CHILD_DIR . '/lib/adsense-widgetize.php');
 
 // Rename primary and secondary navigation menus.
 add_theme_support( 'genesis-menus', array( 'primary' => __( 'After Header Menu', 'genesis-sample' ), 'secondary' => __( 'Footer Menu', 'genesis-sample' ) ) );
